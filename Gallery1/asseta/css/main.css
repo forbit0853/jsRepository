@@ -1,0 +1,59 @@
+body{
+ text-align: center;
+  padding: 20px 5%;
+}
+
+
+header > h2{
+    color: aqua;
+}
+
+footer > h6 {
+ color: aqua;
+}
+
+.nav-img{
+    width: 75%;
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid ;
+    transition: transform .5s;
+}
+
+.nav-img:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px silver;
+}
+
+
+.row div{
+    padding: 5px;
+}
+
+section{
+    border: 1px solid silver;
+    padding: 15px;
+    border-radius: 15px ;
+    height: 100%;
+}
+
+#logo-img{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.mini{
+    width: 50%;
+    margin: 2px;
+    border: 1px solid silver;
+}
+
+
+.mini:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px gray;
+}
+
+
+
+

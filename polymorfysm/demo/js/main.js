@@ -151,12 +151,6 @@
 // }
 
 
-
-
-
-
-
-
 // const number = [3, 2, 6, 4, 1, 2, 7]
 // let averageNumber = 0
 // for (let i = 0; i < number.length; i++) {
@@ -174,12 +168,12 @@
 //     let result = Math.pow(base, exponent);
 //     return result;
 //   }
-  
+
 
 //5
 
 // function repeatString(num, str) {
-   
+
 //     if (typeof num !== "number" || typeof str !== "string") {
 //       return "Invalid";
 //     }
@@ -193,13 +187,13 @@
 
 //   console.log(repeatString(3, "hello"));
 
-  //6
+//6
 
 //   function randomInteger(min, max) {
 //     let rand = min + Math.random() * (max + 1 - min);
 //     return Math.floor(rand);
 //   }
-  
+
 //   alert( randomInteger(1, 3) );
 
 //7
@@ -209,7 +203,7 @@
 //     if (!Array.isArray(arr)) {
 //       return "Invalid input";
 //     }
-  
+
 //     // знаходження найбільшого числа в масиві
 //     let max = arr[0];
 //     for (let i = 1; i < arr.length; i++) {
@@ -219,7 +213,7 @@
 //     }
 //     return max;
 //   }
-  
+
 //   const numbers = [5, 7, 20, 10, 1, 8];
 //   console.log("Найбільше число у масиві", numbers, ":", findMaxNumber(numbers));
 
@@ -235,8 +229,273 @@
 //     }
 //     return true; 
 //   }
-  
+
 // const password = "12345";
 // const confirmPassword = "12345";
 // const isValid = validatePassword(password, confirmPassword);
 // console.log(isValid); 
+
+
+
+
+
+// const home ={
+//   size: 155,
+//   price: "30000$",
+//   parking: 1,
+//   rooms: 3,
+// }
+// console.log(home)
+
+// home.roomsCheck = "2"
+
+// delete home.size
+
+
+// const MIN_AGE = 18
+// const MAX_AGE = 99
+
+// const users = [
+//   { name: "alina", age: 2003, gander: "girl", },
+//   { name: "den", age: 2006, gander: "boy", },
+//   { name: "kodi", age: 1999, gander: "girl", },
+//   { name: "masha", age: 2007, gander: "girl", },
+//   { name: "david", age: 2001, gander: "boy", },
+// ]
+
+// function itemUser(users, minAge = 2005) {
+
+//   const newUser = []
+//   for (let user of users) {
+//     if (user.age <``= minAge) {
+//       newUser.push(user)
+//     }
+//   }
+//   return newUser
+// }
+// console.log(itemUser(users))
+
+
+
+// Об'єкт Math:
+
+// 1
+
+//2
+
+
+// Методи роботи з масивами:
+
+// 1
+
+// function reverseArray(arr) {
+//   return arr.reverse();
+// }
+
+// const numbers = [1, 2, 3, 4, 5];
+// const reversedNumbers = reverseArray(numbers);
+// console.log(reversedNumbers); 
+
+// 2
+
+// function sumOfEvenNumbers(arr) {
+//   const evenNumbers = arr.filter(num => num % 2 === 0);
+
+//   const sum = evenNumbers.reduce((acc, curr) => acc + curr, 0);
+
+//   return sum;
+// }
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const sumOfEvens = sumOfEvenNumbers(numbers);
+// console.log(sumOfEvens); 
+
+// 3
+
+// function removeSpaces(arr) {
+//     return arr.map(str => str.trim());
+//   }
+
+// const strings = [" JavaScript ", "  its  ", " good "];
+// const result = removeSpaces(strings);
+
+// console.log(result); 
+
+
+//Цикли:
+
+
+// 1
+
+// function multiplicationTable(num) {
+//     for (let i = 1; i <= 10; i++) {
+//       console.log(`${num} x ${i} = ${num * i}`);
+//     }
+//   }
+//   multiplicationTable(4);
+
+
+//2
+
+
+
+
+
+//3
+
+// function longestString(array) {
+//     let longest = ""; 
+
+//     for (let i = 0; i < array.length; i++) {
+//       if (array[i].length > longest.length) { 
+//         longest = array[i]; 
+//       }
+//     }
+//     return longest;
+//   }
+
+//   let strings = ["staff", "dog", "elements", "gambit"];
+//   let longest = longestString(strings); 
+
+// console.log(longest)
+
+
+//4
+
+// function squareArray(arr) {
+//     const squared = [];
+
+//     for (let i = 0; i < arr.length; i++) {
+//       squared.push(arr[i] ** 2);
+//     }
+
+//     return squared;
+//   }
+
+//   const numbers = [1, 2, 3, 4, 5];
+//   const squaredNumbers = squareArray(numbers);
+
+//   console.log(squaredNumbers); 
+
+
+
+
+
+
+
+
+
+
+
+
+// let had = { name: "Alex" }
+
+// delete had.name
+// had.pamp = 30
+
+// console.log(had.pamp)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// class People {
+//     name;
+//     age;
+//     orietation;
+
+//     constructor(name, age, orietation) {
+//         this.name = name
+//         this.age = age
+//         this.orietation = orietation
+//     }
+
+//     getFullInformation() {
+//         return `name: ${this.name} age: ${this.age} orietation: ${this.orietation}`
+//     }
+
+// get name() {
+//     return this.name;
+// }
+// set name(value) {
+//     this.name = value;
+// }
+// get age() {
+//     return this.age;
+// }
+// set age(value) {
+//     return age = value
+// }
+// get orietation() {
+//     return thise.orietation;
+// }
+// set orietation(value) {
+//     return orietation = value
+// }
+
+
+// }
+
+// const artem = new People("Artem", 32, "Men")
+// const andrey = new People("Andrey", 21, "Men")
+
+// console.log(artem.getFullInformation())
+
+
+
+
+'use strict'
+
+// window.addEventListener('load', () => {
+
+//     console.log('MainScript -> Start');
+ 
+//     const displeyBox = document.getElementById('display-box');
+//     const startButton = document.getElementById('start-button');
+
+//     startButton.addEventListener('click', () => {
+//       console.log('startButton -> Click');
+//       let animal = new Animal('якась тваринка');
+//       console.log(animal);
+//       displeyBox.innerHTML = `${animal} <br>`;
+//     });
+// });
+
+
+
+
+
+window.addEventListener('load', () => {
+    console.log('Start');
+
+    // 1 - Визначення дескрипторів елементів
+    const displayBox = document.getElementById('display-box');
+    const startButton = document.getElementById('start-button');
+
+    // 2 - Створюємо ключові події:
+    startButton.addEventListener('click', () => {
+        console.log('startButton => Click');
+        // 1
+        let animal = new Animal('якась тваринка');
+        console.log(animal);
+        displayBox.innerHTML = `${animal}<br>`;
+        //2
+        let animals = [
+            new Bird(), new Dog(), new Fish(), new Frog()
+        ];
+        // 3
+        for(let a of animals){
+            displayBox.innerHTML += `${a}<br>`;
+        }
+    });
+});
