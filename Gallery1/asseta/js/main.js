@@ -6,6 +6,6 @@ $(() => {
 console.log('...')
 const controller = new Controller();
 
-conrtoller.loadImages(0,0)
-
-})
+conrtoller.loadImages(0,0);
+controller.activateBack();
+});

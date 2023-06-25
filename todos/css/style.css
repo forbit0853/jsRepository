@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 50px;
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+
+.todos-block{
+    padding-top: 20px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid silver; */
+   margin-bottom: 5px;
+   padding: 5;
+}
+
+
+
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Document</title>
+</head>
+<body>
+    
+<div class="container">
+    <h1>todo list</h1>
+
+
+    <form class="add-todo" name="addTodoForm">
+      <label class="add-todo__input">
+        <input type="text" name="addTodoInput">
+      </label>
+      <button class="add-todo__btn" name="addTodoBtn">add-todo</button>
+    </form>
+
+<div class="todos-block">
+    <ul class="todo-list">
+        <li class="todo-item">
+            <span class="todo-item__index">1</span>
+            <label class="todo-item__input">
+                <input type="checbox" name="completed">
+            </label>
+            <p class="todo-item__text">todo 1</p>
+            <div class="todo-item__btns">
+                <button class="action-btn action-btn_del">x</button>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</div>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

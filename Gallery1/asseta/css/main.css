@@ -39,7 +39,7 @@ section{
 
 #logo-img{
     width: 50%;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 .mini{
@@ -54,6 +54,10 @@ section{
     box-shadow: 0px 0px 10px gray;
 }
 
+#back{
+    width: 100px;
+}
 
-
-
+#back:hover{
+    cursor: pointer;
+}
